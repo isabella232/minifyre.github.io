@@ -1,6 +1,3 @@
----
-layout: default
----
 <!Doctype html>
 <title>Minifyre{{title}}</title>
 <meta charset=utf-8>
@@ -13,17 +10,19 @@ layout: default
 <meta name="mobile-web-app-capable" content="yes">
 -->
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+<!-- Open Graph -->
+<!--
+<meta property="og:title" content="{{- _page_title -}}" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="{{- site.avatar | absolute_url -}}" />
+<meta property="og:url" content="{{- page.url | absolute_url -}}" />
+<meta property="og:site_name" content="{{- site.title | escape -}}" />
+<meta property="og:description" content="{{- _page_description -}}" />
+-->
 <link rel="canonical" href="/">
 <link rel="alternate" type="application/rss+xml" title="Minifyre" href="/feed.xml">
 <link rel=stylesheet href=index.css>
-<a class=accessible-txt href="#main">Skip To Content</a>
-<header class=row>
-	<a href=#>Minifyre</a>
-	<nav class=row>
-		<a href=#>Blog</a>
-		<a href=#>About</a>
-	</nav>
-</header>
+{% include header.html %}
 <main id=main class=stretch>
 	<h1>Heading 1</h1>
 	<h2>Heading 2</h2>
@@ -35,9 +34,9 @@ layout: default
 		<li>header styling</li>
 		<li>heading sublink hover styling</li>
 		<li>footer styling</li>
+		<li>fixed header &amp; added blue loading bar at the bottom to correspond with scrolling progress</li>
+		<li>header links on hover = glow</li>
 	</ul>
-
-
 	<ul class="post-list">
 		{% for post in site.posts %}
 		<li>
@@ -50,15 +49,4 @@ layout: default
 		{% endfor %}
 	</ul>
 </main>
-<footer class=col>
-	<nav class=row>
-		<a data-icon=github href=https://github.com/minifyre>github</a>
-		<a data-icon=patreon href=https://www.patreon.com/minifyre>patreon</a>
-		<a data-icon=pinterest href=https://www.pinterest.com/minifyre>pinterest</a>
-		<a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a>
-		<a data-icon=stackoverflow href=https://stackoverflow.com/users/2559304/minifyre>stackoverflow</a>
-		<a data-icon=twitter href=https://twitter.com/minifyres>twitter</a>
-		<a data-icon=youtube href=https://www.youtube.com/channel/UCv5pzwAg0-kF7CxB-pp1DLA>youtube</a>
-	</nav>
-	<span class="fine-print row">Copyright &copy; 2018 Minifyre All rights reserved.</span>
-</footer>
+{% include footer.html %}
