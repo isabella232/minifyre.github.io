@@ -13,14 +13,7 @@
 <link rel="canonical" href="/">
 <link rel="alternate" type="application/rss+xml" title="Minifyre" href="/feed.xml">
 <link rel=stylesheet href=index.css>
-<a class=accessible-txt href="#main">Skip To Content</a>
-<header class=row>
-	<a href=#>Minifyre</a>
-	<nav class=row>
-		<a href=#>Blog</a>
-		<a href=#>About</a>
-	</nav>
-</header>
+{% include header.html %}
 <main id=main class=stretch>
 	<h1>Heading 1</h1>
 	<h2>Heading 2</h2>
@@ -32,9 +25,8 @@
 		<li>header styling</li>
 		<li>heading sublink hover styling</li>
 		<li>footer styling</li>
+		<li>fixed header &amp; added blue loading bar at the bottom to correspond with scrolling progress</li>
 	</ul>
-
-
 	<ul class="post-list">
 		{% for post in site.posts %}
 		<li>
@@ -47,15 +39,4 @@
 		{% endfor %}
 	</ul>
 </main>
-<footer class=col>
-	<nav class=row>
-		<a data-icon=github href=https://github.com/minifyre>github</a>
-		<a data-icon=patreon href=https://www.patreon.com/minifyre>patreon</a>
-		<a data-icon=pinterest href=https://www.pinterest.com/minifyre>pinterest</a>
-		<a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a>
-		<a data-icon=stackoverflow href=https://stackoverflow.com/users/2559304/minifyre>stackoverflow</a>
-		<a data-icon=twitter href=https://twitter.com/minifyres>twitter</a>
-		<a data-icon=youtube href=https://www.youtube.com/channel/UCv5pzwAg0-kF7CxB-pp1DLA>youtube</a>
-	</nav>
-	<span class="fine-print row">Copyright &copy; 2018 Minifyre All rights reserved.</span>
-</footer>
+{% include footer.html %}
