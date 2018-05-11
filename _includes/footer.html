@@ -1,12 +1,9 @@
 <footer class=col>
 	<nav class=row>
-		<a data-icon=github href=https://github.com/minifyre>github</a>
-		<a data-icon=patreon href=https://www.patreon.com/minifyre>patreon</a>
-		<a data-icon=pinterest href=https://www.pinterest.com/minifyre>pinterest</a>
-		<a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a>
-		<a data-icon=stackoverflow href=https://stackoverflow.com/users/2559304/minifyre>stackoverflow</a>
-		<a data-icon=twitter href=https://twitter.com/minifyres>twitter</a>
-		<a data-icon=youtube href=https://www.youtube.com/channel/UCv5pzwAg0-kF7CxB-pp1DLA>youtube</a>
+		{% for link in site.data.social %}
+			<a data-icon={{link.name}} href={{link.url}}>{{link.name}}</a>
+		{% endfor %}
 	</nav>
+	<!--		<a href="{{ "/feed.xml" | prepend: site.baseurl }}">rss</a>-->
 	<span class="fine-print row">Copyright &copy; 2018 Minifyre All rights reserved.</span>
 </footer>
