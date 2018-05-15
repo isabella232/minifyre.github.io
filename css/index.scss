@@ -141,6 +141,7 @@ a:not(:hover)
 	/*header*/
 	header
 	{
+		box-shadow:0 0 0.1rem #000;
 		justify-content:space-between;
 		min-height:2.75rem;
 		position:fixed;
@@ -153,6 +154,21 @@ a:not(:hover)
 		color:#f90;
 		text-decoration:none;
 	}
+		/*scroll-progress-bar*/
+		.scroll-progress-bar
+		{
+			background-image:linear-gradient(#fff,#fff);
+			background-repeat:no-repeat;
+			height:0.1rem;
+			left:0;
+			position:absolute;
+			bottom:0.1rem;
+			width:100%;
+		}
+		header:hover .scroll-progress-bar
+		{
+			background-image:linear-gradient(#f93,#f93);
+		}
 	/*main*/
 	main
 	{
