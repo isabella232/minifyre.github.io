@@ -143,6 +143,9 @@ a:not(:hover)
 	{
 		justify-content:space-between;
 		min-height:2.75rem;
+		position:fixed;
+		top:0;
+		width:100%;
 	}
 	header a:hover,
 	header a:hover *
@@ -153,6 +156,7 @@ a:not(:hover)
 	/*main*/
 	main
 	{
+		margin-top:2.75rem;
 		padding:0.5rem 1rem;
 	}
 	/*footer*/
