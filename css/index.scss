@@ -1,3 +1,7 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
 /*reset*/
 *
 {
@@ -28,11 +32,18 @@ a:not(:hover)
 	color:#fff;
 }
 	/*fonts*/
-	h1,h2,h3,h4,h5,h6
+	h1,h2,h3,h4
 	{
 		font-family:Tahoma, Geneva, sans-serif;
 		margin:0;
 		margin-bottom:1rem;
+	}
+	h1 a,
+	h2 a,
+	h3 a,
+	h4 a
+	{
+		color:inherit;
 	}
 	h1{font-size:1.728rem;}
 	h2{font-size:1.44rem;}
@@ -133,6 +144,12 @@ a:not(:hover)
 		justify-content:space-between;
 		min-height:2.75rem;
 	}
+	header a:hover,
+	header a:hover *
+	{
+		color:#f90;
+		text-decoration:none;
+	}
 	/*main*/
 	main
 	{
@@ -152,15 +169,15 @@ a:not(:hover)
 /*social-icons*/
 @font-face
 {
-	font-family:'social';
-	src:url('social.ttf?nz628g') format('truetype');
+	font-family:'icon';
+	src:url('../font/icons.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
 }
 [data-icon]
 {
 	color:#fff;
-	font-family:social;
+	font-family:icon;
 	font-size:1.2rem;
 	height:1.44rem;
 	text-align:center;
@@ -171,13 +188,18 @@ a:not(:hover)
 	color:inherit;
 	text-decoration:none;
 }
+[data-icon="facebook"]{font-size:1rem;}
 [data-icon="github"]{font-size:1rem;}
+[data-icon="rss"]{font-size:0.8rem;}
 [data-icon="stackoverflow"]{font-size:0.8rem;}
+[data-icon="twitter"]{font-size:1rem;}
 [data-icon="youtube"]{font-size:1rem;}
 
+[data-icon="facebook"]:hover{background:#3b5998;}
 [data-icon="github"]:hover{background:#9d7bdc;}
 [data-icon="patreon"]:hover{background:#f96854;}
 [data-icon="pinterest"]:hover{background:#bd081b;}
+[data-icon="rss"]:hover{background:#f80;}
 [data-icon="stackoverflow"]:hover{background:#f58025;}
 [data-icon="twitter"]:hover{background:#1da1f3;}
 [data-icon="youtube"]:hover{background:#ed1d24;}
