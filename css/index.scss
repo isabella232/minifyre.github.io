@@ -137,6 +137,12 @@ a:not(:hover)
 		justify-content:space-between;
 		min-height:2.75rem;
 	}
+	header a:hover,
+	header a:hover *
+	{
+		color:#f90;
+		text-decoration:none;
+	}
 	/*main*/
 	main
 	{
