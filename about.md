@@ -3,5 +3,16 @@ layout: default
 title: About
 permalink: /about/
 ---
+# Our Mission
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+We are dedicated to creating things that inspire & empower others.
+
+## Our Team
+
+* Andrew Quinn
+	* Minifyre- President
+	* Bloque It- Lead Designer & Programmer
+* Joshua DeRousse
+	* Bloque It- Level Designer
+* Nathan DeRousse
+	* Bloque It- Level Designer
