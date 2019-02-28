@@ -186,6 +186,27 @@ a:not(:hover)
 		justify-content:center;
 		padding:0.2rem;
 	}
+/*tags*/
+.tags
+{
+	margin-left:0;
+	list-style-type:none;
+	position:relative;
+}
+.tags::before
+{
+	content:"tags: ";
+}
+.tag
+{
+	background:#fff;
+	border:1px solid #222;
+    border-radius:0.1rem;
+    display:inline;
+    margin:0.25rem;
+    padding:0.25rem 0.5rem;
+}
+
 /*social-icons*/
 @font-face
 {
