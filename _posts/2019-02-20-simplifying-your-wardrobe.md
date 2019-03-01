@@ -66,7 +66,7 @@ For shirts, I use the so called ["Japanese method"](https://www.youtube.com/watc
 This technique is also great for [travel](https://lifehacker.com/pack-your-suitcase-as-efficiently-as-a-flight-attendant-5788501){:target="_blank"}. I've never needed anything more than a tiny duffel bag for weekend trips, or a small suitcase for longer excursions. And these techniques might even save enough space for you to get rid of your dresser at home.
 ### Dresser Alternatives: "Clothing Cubes"
 
-{% include img.html url="/img/clothing-cubes.jpg" description="Clothing cubes about halfway through the week." %}
+{% include img.html url="/img/clothing-cubes.jpg" description="Clothing cubes about halfway through the week." pin="784963410031324864" %}
 
 If you feel that you no longer need a full dresser to store everything and would like to save space here too, there are a couple of things you can do. I used to have an [over the door hanging shoe organizer](https://smile.amazon.com/gp/product/B07CG2R9ST/ref=as_li_tl?ie=UTF8&tag=minifyre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07CG2R9ST&linkId=dd36c783d2e23c77d87c8540b54efe84&pldnSite=1){:target="_blank"} with clear pockets to stuff my rolled up T-Shirts in, but I've since moved everything into some [wireframe storage cubes](https://smile.amazon.com/gp/product/B007ELAS9G/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007ELAS9G&linkCode=as2&tag=minifyre-20&linkId=a5c5ebc116bb56bec4f3fe4e89473463){:target="_blank"} that slide under my bed. For the more adventurous, these could also be used as a nightstand with some sort of fabric cover over it.
 
