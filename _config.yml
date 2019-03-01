@@ -24,3 +24,5 @@ url: "https://minify.re" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+kramdown: 
+  smart_quotes: ["apos", "apos", "quot", "quot"]
