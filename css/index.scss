@@ -119,7 +119,14 @@ a:not(:hover)
 	{
 		display:block;
 		margin:auto;
+	}
+	figure [data-orientation="landscape"]
+	{
 		width:100%;
+	}
+	figure [data-orientation="portrait"]
+	{
+		max-height:21rem;
 	}
 /*layout*/
 .col
