@@ -14,7 +14,7 @@ type: article
 {:.fine-print}
 **Satirical Warning:** The article below contains opinions &amp; affiliate links.
 
-{% include img.html url="/img/clothing-cubes.jpg" description="Clothing cubes about halfway through the week." %}
+{% include img.html url="/img/clothing-cubes.jpg" description="Clothing cubes about halfway through the week." pin="784963410031324864" %}
 
 Here are a few tips and tricks that have helped me slim down my wardrobe.
 
