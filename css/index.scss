@@ -33,6 +33,13 @@ a:not(:hover)
 	color:#fff;
 }
 	/*fonts*/
+@font-face
+{
+	font-family:'icon';
+	src:url('../font/icons.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
 	h1,h2,h3,h4
 	{
 		font-family:Tahoma, Geneva, sans-serif;
@@ -113,6 +120,7 @@ a:not(:hover)
 		margin-inline-start:0;
 		max-width:100%;
 		padding:0 1rem;
+		position:relative;
 		text-align:center;
 	}
 	figure img
@@ -128,6 +136,47 @@ a:not(:hover)
 	{
 		max-height:21rem;
 	}
+		figure:hover a.pin
+		{
+			display:block;
+			height:1.5rem;
+			position:absolute;
+			right:calc(2.2rem + 1rem);
+			top:0.1rem;
+		}
+		figure:hover a.pin::after,
+		figure:hover a.pin::before
+		{
+			bottom:0;
+			background:#bd081b;
+			color:#fff;
+			display:flex;
+			flex-direction:column;
+			position:absolute;
+		}
+
+		figure:hover a.pin::before
+		{
+			border-bottom-left-radius:0.2rem;
+			border-top-left-radius:0.2rem;
+			content:"pinterest";
+			font-family:icon;
+			font-size:1.1rem;
+			left:-1.1rem;
+			text-align:right;
+			width:1.1rem;
+		}
+		figure:hover a.pin::after
+		{
+			border-bottom-right-radius:0.2rem;
+			border-top-right-radius:0.2rem;
+			content:"save";
+			right:-2.2rem;
+			text-align:left;
+			text-indent:0.1rem;
+			width:2.2rem;
+		}
+
 /*layout*/
 .col
 {
@@ -242,13 +291,6 @@ a:not(:hover)
 }
 
 /*social-icons*/
-@font-face
-{
-	font-family:'icon';
-	src:url('../font/icons.ttf') format('truetype');
-	font-weight:normal;
-	font-style:normal;
-}
 [data-icon]
 {
 	color:#fff;

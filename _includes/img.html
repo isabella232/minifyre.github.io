@@ -1,4 +1,5 @@
 <figure>
 	<img data-orientation="{{ include.orientation | default: "landscape"}}" src="{{ include.url }}" alt="{{ include.description }}">
+	<a class="pin" href="http://pinterest.com/pin/create/button/?url={{site.url | url_encode}}/{{page.url | url_encode}}&media={{site.url | url_encode}}/{{include.url | url_encode}}&description={{include.description | url_encode}}"></a>
 	<figcaption>{{ include.description }}</figcaption>
 </figure>
