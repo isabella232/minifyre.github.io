@@ -102,6 +102,25 @@ a:not(:hover)
 		-webkit-padding-start:0;
 		margin-left:1rem;
 	}
+	/*img*/
+	figure
+	{
+		display:block;
+		font-size:0.8rem;
+		margin-block-end:0;
+		margin-block-start:0;
+		margin-inline-end:0;
+		margin-inline-start:0;
+		max-width:100%;
+		padding:0 1rem;
+		text-align:center;
+	}
+	figure img
+	{
+		display:block;
+		margin:auto;
+		width:100%;
+	}
 /*layout*/
 .col
 {
