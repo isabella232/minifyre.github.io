@@ -2,7 +2,7 @@
 author: Andrew R Quinn
 categories: en blog
 date:   2019-03-01 14:00:00 -0500
-desc: Here are a few tips and tricks that have helped me slim down my wardrobe.
+desc: Here are a few tips and tricks that helped me slim down my wardrobe.
 img: /img/clothing-cubes.jpg
 lang: en
 layout: post
@@ -16,7 +16,7 @@ type: article
 
 {% include img.html url="/img/clothing-cubes.jpg" description="Clothing cubes about halfway through the week." pin="784963410031324864" %}
 
-Here are a few tips and tricks that have helped me slim down my wardrobe.
+Here are a few tips and tricks that helped me slim down my wardrobe.
 
 ## Only Keep Your Favorites
 First, use the [KonMari](https://konmari.com/pages/who-we-are){:target="_blank"} method. Get all of your clothes together and eliminate the ones you don't like. Yes, this can be difficult, especially if the stuff on the chopping block was a gift, but some decisions are no brainers.
