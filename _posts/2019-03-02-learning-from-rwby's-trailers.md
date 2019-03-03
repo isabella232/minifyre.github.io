@@ -2,7 +2,7 @@
 author: Andrew R Quinn
 categories: en blog
 date:   2019-03-02 18:00:00 -0500
-desc: "Learning from RWBY's Trailers: Analysis, Review, Critique, and Commentary"
+desc: "RWBY is not full of fetishized fanservice (though the camera could have aimed a little higher in the final trailer's opening). Instead, it features a colorful cast of characters in a unique world that seamlessly blends elements of sci-fi & fantasy with modernity. Also, the fight scenes, weapons, and music are amazing."
 img: img/rwby-trailers.jpg
 lang: en
 layout: post
