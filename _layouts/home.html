@@ -8,7 +8,7 @@ ref: index
 
 <ul class="posts">
 		{% for post in site.posts limit:13 %}
-			<li class=post>
+			<li class="{%if forloop.index == 1 %}col-sm-12{%else%}col-sm-6 col-md-4{%endif%} post">
 				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
 					<div>
 						<img src="{{post.img}}">
