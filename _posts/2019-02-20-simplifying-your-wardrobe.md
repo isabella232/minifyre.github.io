@@ -12,7 +12,7 @@ type: article
 ---
 
 {:.fine-print}
-**Satirical Warning:** The article below contains opinions &amp; affiliate links.
+**Satirical Warning:** The following contains opinions &amp; affiliate links.
 
 {% include img.html url="/img/clothing-cubes.jpg" description="Clothing cubes about halfway through the week." pin="784963410031324864" %}
 
