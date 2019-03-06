@@ -100,4 +100,4 @@ To be clear these [similarities](https://i.imgur.com/RfCRYvt.png){:target="_blan
   * June 6, 2012 [E3 Trailer](https://www.youtube.com/watch?v=2ONT6-8B94Y){:target="_blank"} (Sam's sword is now red)
   * February 19, 2013 MGR Releases (showcases a quick draw launch)
   * **March 3, 2013 Black Trailer Drops (showcases gun launching & standalone gun)**
-  * MGR Jetstream DLC: April 9, 2013 (takes full advantage of shooting the sword, but sheath does not act as a standalone gun)
+  * April 9, 2013 MGR Jetstream DLC (takes full advantage of shooting the sword, but sheath does not act as a standalone gun)
